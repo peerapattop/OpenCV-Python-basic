@@ -1,4 +1,4 @@
- #การอ่านภาพ (Read Image)
+ #การอ่านภาพ  (Read Image)
 
 import cv2 
 
