@@ -1,4 +1,4 @@
-#การอัดวิดีโอ (Video Recorder)
+#การอัดวิดีโอ (VideoRecorder)
 
 
 import cv2
@@ -6,7 +6,7 @@ import cv2
 cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID') #เขียนวิดิโอเป็นนามสกุล XVID
 
-result = cv2.VideoWriter("output.avi",fourcc,20.0,(640,480)) #ชื่อวิดิโอ,รูปแบบ,จำนวนเฟมเรท,ขนาดวิดิโอ
+result = cv2.VideoWriter("write-video/output.avi",fourcc,20.0,(640,480)) #ชื่อวิดิโอ,รูปแบบ,จำนวนเฟมเรท,ขนาดวิดิโอ
 
 while (cap.isOpened()): 
 
